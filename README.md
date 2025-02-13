@@ -1,5 +1,5 @@
 # portfolio
-Examples of previous coding projects.
+Examples of previous coding projects from my current studies as an undergrad.
 
 Both of the MP's are my projects from CS 128 in C++. The source (src) file has the functions I created.
 
