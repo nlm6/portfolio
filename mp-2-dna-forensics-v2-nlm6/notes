@@ -1,0 +1,25 @@
+Input dna_database : ./tests/dna_databases/test-strs-3.dat
+Input dna_sequence : CACACACACACACACACACACACAGGCATAGTTCGAGGAGAAATATCCGGGGCCCACCCACACACACACAATTAATTAATTAAAAGACAACCAGCATATTAATTAATTAATTAATTACTCGGGTCTTGCCCAACCCGATTAATTAATTAATTA
+person
+ATTA 5
+CACC 1
+CACA 6
+Charlie
+ATTA 5
+CACC 1
+CACA 6
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests is a Catch v2.13.10 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+test-strs-3-test-4
+-------------------------------------------------------------------------------
+./tests/tests.cc:141
+...............................................................................
+
+./tests/tests.cc:148: FAILED:
+  REQUIRE( ProfileDNA(dna_database, dna_sequence) == expected )
+with expansion:
+  "Charlie" == "No match"
